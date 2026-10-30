@@ -51,12 +51,7 @@ ImageNet normalisation is applied inside a wrapper around the model, so images a
 - **The feature attack is weaker here, and not yet converged.** Its loss was still falling at the end of training. A likely factor is dilution: the patch covers ~5% of the image, but the L1 loss averages over all 14 × 14 spatial positions of `layer3`, most of which still describe clean content.
 
 ## How to run
-
-1. Click the **Open in Colab** badge above.
-2. Go to **Runtime → Change runtime type** and select **T4 GPU**.
-3. Go to **Runtime → Run all**.
-
-Everything needed (PyTorch, torchvision, matplotlib) is preinstalled in Colab. The dataset (~340 MB) and model weights download automatically. A full run takes roughly 10 minutes on a T4.
+PyTorch, torchvision, and matplotlib are required to be preinstalled. Using Colab, the dataset (~340 MB) and model weights download automatically. A full run takes roughly 10 minutes on a T4.
 
 ## Limitations
 
