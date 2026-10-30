@@ -87,7 +87,8 @@ Everything needed (PyTorch, torchvision, matplotlib) is preinstalled in Colab. T
 - Athalye, A., Engstrom, L., Ilyas, A., & Kwok, K. (2018). *Synthesizing Robust Adversarial Examples.* ICML.
 - Geirhos, R., et al. (2019). *ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness.* ICLR.
 - He, K., Zhang, X., Ren, S., & Sun, J. (2016). *Deep Residual Learning for Image Recognition.* CVPR.
-- TAPDreamer (2026). [Add authors, title and arXiv ID.]
+- Xuanyu Lu, Fengqing Jiang, Kaiyuan Zheng, Yichen Feng, Yaorui Ding, Yuetai Li,
+Zhen Xiang, Bhaskar Ramasubramanian, Basel Alomair, Luyao Niu, Radha Poovendran (2026) *TAPDreamer* 
 - Imagenette dataset: Jeremy Howard / fast.ai, https://github.com/fastai/imagenette
 
 ## Licence
