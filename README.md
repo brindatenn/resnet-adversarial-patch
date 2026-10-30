@@ -43,14 +43,6 @@ ImageNet normalisation is applied inside a wrapper around the model, so images a
 | Cross-entropy patch | **0.15%** | **99.88%** |
 | Feature-L1 patch (`layer3`) | **51.97%** | **39.39%** |
 
-<p align="center">
-  <img src="images/patch_ce.png" width="220" alt="Cross-entropy patch">
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/patch_feat.png" width="220" alt="Feature-L1 patch">
-  <br>
-  <em>Left: cross-entropy patch. Right: feature-L1 patch.</em>
-</p>
-
 ### Key findings
 
 - **The cross-entropy patch hijacks the model.** Although the attack is untargeted, 99.9% of validation images are classified as *thimble*, almost always at ~100% confidence. The patch converged on a metallic, dimpled texture, consistent with the known texture bias of ImageNet-trained CNNs (Geirhos et al., 2019). It also works when fixed in one corner (4.41% accuracy), confirming that random-placement training generalises across positions.
