@@ -1,7 +1,5 @@
 # Adversarial Patch Attacks on ResNet-50: Classifier Loss vs Feature-Space Loss
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brindatenn/resnet-adversarial-patch/blob/main/resnet_patch_attack.ipynb)
-
 A step-by-step PyTorch implementation of a **universal adversarial patch** against a pretrained ResNet-50, comparing two attack objectives:
 
 1. **Classifier loss:** maximise the cross-entropy of the true label (untargeted).
